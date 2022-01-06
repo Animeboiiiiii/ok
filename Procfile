@@ -1,2 +1,2 @@
-worker: python3 -m echo.py
-web: python3 -m echo.py
+worker: python3 -m echo
+web: python3 -m echo
