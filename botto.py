@@ -19,8 +19,7 @@ def info(_, message):
     caption += f"<b>Is A Bot?:</b> {usr.is_bot}\n"
     caption += f"<b>Status:</b> {usr.status}\n"
     caption += f"<b>DC id:</b> {usr.dc_id}\n"
-    message.reply_photo(photo=usr.photo, caption=caption)
-
+    return [caption, user.photo.big_file_id]
 
 app.run()
 
