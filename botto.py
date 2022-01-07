@@ -13,7 +13,7 @@ def echo(_,messege):
 
 @app.on_message(filters.command('info'))
 def info(_, message):
-    usr = message.user
+    usr = message.from_user
     caption = f"<b>User ID:</b> {usr.id}"
     caption += f"<b>Username:</b> {usr.username}\n"
     caption += f"<b>Is A Bot?:</b> {usr.is_bot}\n"
