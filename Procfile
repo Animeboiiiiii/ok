@@ -1,2 +1,2 @@
-worker: python3 -m echo
-web: python3 -m echo
+worker: python3 -m botto
+web: python3 -m botto
