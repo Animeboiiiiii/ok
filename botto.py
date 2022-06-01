@@ -25,7 +25,6 @@ def info(_, message):
 def ginfo(_,message):
 cht = message.chat
 Chat profile:{cht.photo}
-caption += f"<b>Chat ID:<\b>{cht.id}
 caption += f"<b>Chat  Type:<\b>{cht.type}
 caption += f"<b>Chat name:<\b>{cht.title}
 caption += f"<b>Chat username:<\b>{cht.username}
