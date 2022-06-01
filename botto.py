@@ -21,14 +21,6 @@ def info(_, message):
     caption += f"<b>DC id:</b> {usr.dc_id}\n"
     message.reply_text(caption)
 
-@app.on_message(filters.command('ginfo'))
-def ginfo(_,message):
-cht = message.chat
-Chat profile:{cht.photo}
-caption += f"<b>Chat  Type:<\b>{cht.type}
-caption += f"<b>Chat name:<\b>{cht.title}
-caption += f"<b>Chat username:<\b>{cht.username}
-caption += f"<b>Bio:<\b>{cht.discription}
 
 app.run()
 
